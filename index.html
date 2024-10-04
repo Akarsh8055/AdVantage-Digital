@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>AdVantage Digital</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="index.html"><img src="IMG/logo.png" alt="Logo"></a>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="dropdown">
+                <a href="#services" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                    <a href="seo.html">SEO</a>
+                    <a href="contentmarketing.html">Content Marketing</a>
+                    <a href="socialmedia.html">Social Media Marketing</a>
+                    <a href="PPC.html">PPC Advertising</a>
+                    <a href="emailmarketing.html">Email Marketing</a>
+                    <a href="webdesign.html">Web Design</a>
+                </div>
+            </li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="signup.html" class="signup-btn">Signup</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Marketing That Moves You Forward</h1>
+            <p>Our mission is to elevate your business through strategic marketing initiatives. With a focus on
+                data-driven results, we create campaigns that engage, inspire, and convert.</p>
+            <a href="signup.html" class="cta-button">Get Started</a>
+        </div>
+        <img src="IMG/marketingcover.jpg" alt="marketing" class="hero-image">
+    </header>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-description">We provide tailored digital marketing solutions that make a difference.</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO</h3>
+                    <p>Boost your search rankings and drive organic traffic with our SEO strategies.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>PPC Advertising</h3>
+                    <p>Run cost-effective PPC campaigns that generate leads and boost conversions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>Engage your audience and grow your brand’s presence on social platforms.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <h3>Content Marketing</h3>
+                    <p>Create engaging content that connects with your audience and drives action.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Reach your customers with targeted and personalized email campaigns.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Design and develop user-friendly websites that convert visitors into customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="IMG/Mike Anderson.jpg" alt="Client 1">
+                <p>"AdVantage Digital completely transformed our online presence. Their strategies led to a 50% increase
+                    in our web traffic within months!"</p>
+                <h3>Mike Anderson</h3>
+                <span>Marketing Director, XYZ Corp</span>
+            </div>
+            <div class="testimonial">
+                <img src="IMG/Chris Kruger.webp" alt="Client 2">
+                <p>"We couldn’t be happier with the results. The team is knowledgeable, creative, and delivers
+                    measurable results every time."</p>
+                <h3>Chris Kruger</h3>
+                <span>CEO, ABC Ltd</span>
+            </div>
+            <div class="testimonial">
+                <img src="IMG/sarah.jpg" alt="Client 3">
+                <p>"AdVantage Digital's attention to detail and personalized service is unmatched. Our business is now
+                    thriving thanks to their efforts."</p>
+                <h3>Sarah Lee</h3>
+                <span>Owner, Lee’s Boutique</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients-section">
+        <h2>Our Trusted Clients & Partners</h2>
+        <p>We're honored to work with some of the most innovative brands in the industry.</p>
+        <div class="clients-grid">
+            <div class="client">
+                <img src="IMG/Bajaj.jpg" alt="Client 1 Logo">
+            </div>
+            <div class="client">
+                <img src="IMG/Parle.png" alt="Client 2 Logo">
+            </div>
+            <div class="client">
+                <img src="IMG/Myntra.png" alt="Client 3 Logo">
+            </div>
+            <div class="client">
+                <img src="IMG/Tata.png" alt="Client 4 Logo">
+            </div>
+            <div class="client">
+                <img src="IMG/Wallmart.png" alt="Client 5 Logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h2>Stay in the Loop!</h2>
+            <p>Subscribe to our newsletter for the latest digital marketing trends, tips, and exclusive content.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your best email" required>
+                <button type="submit">Subscribe Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AdVantage Digital. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navList = document.querySelector('.nav-list');
+            navList.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
